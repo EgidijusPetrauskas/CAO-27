@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background: #25252575;
+    font-family: arial;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(41, 39, 39);
+    margin: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(60px, 1fr));
+    grid-template-rows: repeat(2, 30px);
+    grid-gap: 4px;
+    margin: 0 auto;
+    width: 90%;
+}
+
+.container input {
+    border: none;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.616);
+    background: rgb(206, 202, 202);
+    text-align: center;
+}
+
+.container button {
+    border: none;
+    background: white;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.container button:hover {
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(54, 54, 54);
+    transform: scale(1.01);
+}
+
+table {
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 20px;
+    background: rgb(206, 202, 202);
+    border-collapse: collapse;
+}
+table th {
+    border: 1px solid rgba(167, 167, 167, 0.616);
+    background: rgb(206, 202, 202);
+    padding: 7px 0;
+    color: rgba(0, 0, 0, 0.719);
+}
+
+table td {
+    border: 1px solid rgba(128, 128, 128, 0.616);
+    background: white;
+    text-align: center;
+    padding: 5px 0;
+    font-size: 14px;
+}
